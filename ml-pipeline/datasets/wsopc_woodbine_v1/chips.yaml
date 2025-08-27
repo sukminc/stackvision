@@ -1,0 +1,7 @@
+path: ./ml-pipeline/datasets/wsopc_woodbine_v1
+train: images/train
+val: images/val
+names:
+  0: 500
+  1: 1000
+  2: 5000

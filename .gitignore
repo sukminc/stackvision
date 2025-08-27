@@ -1,0 +1,26 @@
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Model weights / exports / logs
+runs/
+models/
+*.pt
+*.onnx
+*.mlmodel
+*.coreml
+*.engine
+
+# Datasets
+ml-pipeline/datasets/*/images/
+ml-pipeline/datasets/*/labels/
+
+# OS
+.DS_Store
