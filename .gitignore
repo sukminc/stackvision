@@ -1,4 +1,3 @@
-
 # Byte-compiled / cache
 __pycache__/
 *.py[cod]
@@ -18,9 +17,13 @@ models/
 *.coreml
 *.engine
 
-# Datasets
+# Datasets (don’t commit raw images/labels)
 ml-pipeline/datasets/*/images/
 ml-pipeline/datasets/*/labels/
 
-# OS
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
 .DS_Store
+Thumbs.db
