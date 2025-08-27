@@ -1,4 +1,4 @@
-path: ./ml-pipeline/datasets/home_samples_v1
+path: ./ml-pipeline/datasets/home_sample_v1
 train: images/train
 val: images/val
 names:
